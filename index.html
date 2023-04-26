@@ -1,0 +1,324 @@
+<DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <style>
+        #street {
+          margin: auto;
+          padding: auto;
+        }
+        .container {
+          background-color: rgb(215, 12, 218);
+          border: 12px solid rgb(189 129 181);
+          border-radius: 10px;
+          width: 1200px;
+          margin: 40px 1200px;
+          padding: 40px 40px;
+          font-family: "Bebas Neue", cursive;
+          font-weight: bold;
+          font-size: x-large;
+          color: rgb(17, 17, 17);
+          align-self: right;
+          background-color: rgba(212, 76, 180, 0.192);
+          justify-content: center;
+          position: sticky;
+        }
+        #submit {
+          background-color: rgb(11, 11, 11);
+          font-family: "Bebas Neue", cursive;
+          font-weight: bold;
+          color: white;
+          border-radius: 2px;
+          margin: auto;
+          padding: auto;
+          cursor: pointer;
+          font-size: larger;
+        }
+        #submit:hover {
+          background-color: blueviolet;
+        }
+        #submit:active {
+          background-color: aqua;
+        }
+        #submit:visited {
+          background-color: yellow;
+        }
+        .address {
+          border: 8px solid blueviolet;
+          border-radius: 6px;
+          background-color: rgba(212, 76, 180, 0.192);
+          box-sizing: border-box;
+        }
+        .rating {
+          border: 8px solid blueviolet;
+          border-radius: 6px;
+          font-size: larger;
+        }
+        #r1 {
+          float: left;
+        }
+        .name {
+          border: 8px solid blueviolet;
+          border-radius: 6px;
+        }
+        body {
+          background-image: url("https://media.istockphoto.com/vectors/modern-flat-design-isometric-concept-of-online-shopping-for-banner-vector-id1024208722?k=6&m=1024208722&s=170667a&w=0&h=YUQLuXK_fi19QFHIkQpIm5AHo2OAxvHtoztrYMLEE7A=");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: 34px 35px;
+          box-sizing: border-box;
+        }
+        @media (min-width:200px) and (max-width:600px){
+        .container{
+          width: 400px;
+          height: 1100px;
+          border:12px solid  rgb(189 129 181);
+          border-radius: 10px;
+          font-size: small;
+          box-sizing: border-box;
+          position: absolute;
+          top:34px;
+          left:34px;
+          display: inline;
+          margin:27px;
+          padding: 14px;
+         
+        }
+        .address {
+          border: 8px solid blueviolet;
+          border-radius: 6px;
+          background-color: rgba(212, 76, 180, 0.192);
+          box-sizing: border-box;
+          margin:auto;
+          padding: 2px;
+          background-color:  rgb(189 129 181);
+          flex-wrap: wrap;
+          text-align: left;
+        }
+        .rating {
+          border: 8px solid blueviolet;
+          border-radius: 6px;
+          font-size: larger;
+          padding: auto;
+          background-color:   rgb(189 129 181);
+          box-sizing: border-box;
+        }
+        .name {
+          border: 8px solid blueviolet;
+          border-radius: 6px;
+          padding: auto;
+          background-color:  rgb(189 129 181);
+          box-sizing: border-box;
+        }
+        body{
+          background-size: 2000px;
+          background-color:burlywood;
+          display: inline-block;
+          width: 400px;
+          height:200px;
+          
+        }
+        @media(min-width:700px)and(max-width: 1900px){
+          .container{
+          width: 400px;
+          height: 1100px;
+          border:12px solid  rgb(189 129 181);
+          border-radius: 10px;
+          font-size: small;
+          box-sizing: border-box;
+          position: absolute;
+          top:34px;
+          left:34px;
+          display: inline;
+          margin:auto;
+        }
+        .address {
+          border: 8px solid blueviolet;
+          border-radius: 6px;
+          background-color: rgba(212, 76, 180, 0.192);
+          box-sizing: border-box;
+        }
+        .rating {
+          border: 8px solid blueviolet;
+          border-radius: 6px;
+          font-size: larger;
+        }
+        .name {
+          border: 8px solid blueviolet;
+          border-radius: 6px;
+        }
+        body{
+          width: 400px;
+          height: 1100px;
+          border:12px solid  rgb(189 129 181);
+          border-radius: 10px;
+          background-size: auto;
+          height:1100px; 
+        }
+      }
+        }      
+      </style>
+    </head>
+    <body bgcolor="blueviolet" class="img">
+      <div class="container">
+        <form action="https://enw7u145b8im9.x.pipedream.net/" method="post">
+          <fieldset class="name">
+            <legend>Name section:</legend>
+  
+            <label for="First Name">First Name:</label>
+            <input
+              type="text"
+              name="First Name"
+              id="First Name"
+              placeholder="Enter Your First Name"
+              style="height: 40px"
+              ;
+              style="width: 100px"
+              ;
+              value
+              required
+            /><br><br>
+            <label for="Last Name">Last Name:</label>
+            <input
+              type="text"
+              name="Last Name"
+              id="Last Name"
+              placeholder="Enter Your Last Name"
+              style="height: 40px"
+              ;
+              style="width: 100px"
+              ;
+              value
+              required
+            /><br /><br />
+            <label>Contact Number: </label>
+            <input
+              id="contact"
+              type="number"
+              name="Contact Number"
+              placeholder="+91-12345-67890"
+              style="height: 40px"
+              ;
+              style="width: 100px"
+              ;
+              minlength="10"
+              maxlength="10"
+              required
+            />
+          </fieldset>
+          <fieldset class="address">
+            <legend>Address section:</legend>
+  
+            <label for="Pin">Pin:</label>
+            <input
+              type="number"
+              id="Pin"
+                   name="Pin"
+              style="height: 40px"
+              ;
+              style="width: 100px"
+              ;
+              placeholder="Enter your pin"
+                    minlength="6"
+              maxlength="6"
+              value
+              required
+            /><br /><br />
+            <label for="City">City:</label>
+            <input
+              type="text"
+              id="City"
+              style="height: 40px"
+              ;
+              style="width: 100px"
+              ;
+              placeholder="Enter your city"
+              value
+              required
+            /><br><br>
+            <label for="Select State">Select State:</label>
+            <select
+              name="state"
+              id="Select State"
+              style="height: 40px"
+              ;
+              style="width: 100px"
+              ;
+              value
+              required
+            >
+              <option value="">Select State</option>
+              <option value="Andaman and Nicobar Islands">
+                Andaman and Nicobar Islands
+              </option>
+              <option value="Andhra Pradesh">Andhra Pradesh</option>
+              <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+              <option value="Assam">Assam</option>
+              <option value="Bihar">Bihar</option>
+              <option value="Chandigarh">Chandigarh</option>
+              <option value="Chhattisgarh">Chhattisgarh</option>
+              <option value="Dadra and Nagar Haveli">
+                Dadra and Nagar Haveli
+              </option>
+              <option value="Daman and Diu">Daman and Diu</option>
+              <option value="Delhi">Delhi</option>
+              <option value="Gujarat">Gujarat</option>
+              <option value="Haryana">Haryana</option>
+              <option value="Himachal Pradesh">Himachal Pradesh</option>
+              <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+              <option value="Jharkhand">Jharkhand</option>
+              <option value="Karnataka">Karnataka</option>
+              <option value="Kerala">Kerala</option>
+              <option value="Ladakh">Ladakh</option>
+              <option value="Lakshadweep">Lakshadweep</option>
+              <option value="Madhya Pradesh">Madhya Pradesh</option>
+              <option value="Maharashtra">Maharashtra</option>
+              <option value="Manipur">Manipur</option>
+              <option value="Meghalaya">Meghalaya</option>
+              <option value="Mizoram">Mizoram</option>
+              <option value="Nagaland">Nagaland</option>
+              <option value="Odisha">Odisha</option>
+              <option value="Puducherry">Puducherry</option>
+              <option value="Punjab">Punjab</option>
+              <option value="Rajasthan">Rajasthan</option>
+              <option value="Sikkim">Sikkim</option>
+              <option value="Tamil Nadu">Tamil Nadu</option>
+              <option value="Telangana">Telangana</option>
+              <option value="Tripura">Tripura</option>
+              <option value="Uttar Pradesh">Uttar Pradesh</option>
+              <option value="Uttarakhand">Uttarakhand</option>
+              <option value="West Bengal">West Bengal</option></select
+            ><br /><br />
+            <textarea
+              rows="4"
+              cols="40"
+              placeholder="Street"
+              id="street"
+                      name="Street"
+            ></textarea>
+          </fieldset>
+          <fieldset class="rating">
+            <legend>Rating Section</legend>
+            <p><u>Quality of Product recieved:</u></p>
+            Excellent<input type="radio" id="Excellent" name="Quality of product recieved" value="Excellent" /><br /><br />
+            Good <input type="radio" id="2" name="Quality of product recieved" value="Good" /> <br /><br />
+            Bad <input type="radio" id="3" name="Quality of product recieved" value="Bad"/>
+            <p><u>Value for Money:</u></p>
+            Excellent <input type="radio" id="Excellent" name="Value for money" value="Excellent"  /> <br /><br />
+            Good <input type="radio" id="Good" name="Value for money"  value="Good" /> <br /><br />
+            Bad <input type="radio" id="Bad" name="Value for money" value="Bad"  />
+            <p><u>Delievery:</u></p>
+            Excellent <input type="radio" id="Excellent" name="Delievery"  value="Excellent"/> <br /><br />
+            Good <input type="radio" id="Good" name="Delievery" value="Good"  /> <br /><br />
+            Bad <input type="radio" id="Bad" name="Delievery" value="Bad"  /> <br /><br />
+          </fieldset>
+          <br />
+          <input type="submit" value="Submit" name="Submit" id="submit" />
+        </form>
+      </div>
+    </body>
+  </html>
